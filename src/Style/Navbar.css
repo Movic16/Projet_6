@@ -1,0 +1,46 @@
+.DivNav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    /*gap: 57px;*/
+}
+
+.navbar li a
+{
+    padding-inline: 40px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    text-decoration: none;
+    /* or 34px */
+
+    /*display: flex;
+    align-items: flex-end;
+    text-align: right;*/
+
+    color: #FF6060;
+}
+
+.navbar a:hover
+{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.navbar .active
+{
+    text-decoration: underline;
+    font-weight: 700;
+}

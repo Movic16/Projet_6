@@ -1,0 +1,37 @@
+.Banner
+{
+    background-image: url("../Assets/Images/Banniere.png");
+    background-size: cover;
+    /*opacity: 0.6;*/
+
+    min-height: 140px;
+    max-width: 100%;
+    padding-inline: 2rem;
+    border-radius: 25px;
+    margin: auto;
+
+    display: grid;
+    place-items: center;
+}
+
+.about .Banner
+{
+    /* kalen-emsley-Bkci_8qcdvQ-unsplash 2 */
+    background: url("../Assets/Images/BanniereAbout.png");
+}
+
+.Banner h1
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 142.6%;
+    color: #FFFFFF;
+}
+
+.about h1
+{
+    visibility: hidden;
+
+}
