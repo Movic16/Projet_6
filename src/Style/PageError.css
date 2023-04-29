@@ -1,0 +1,46 @@
+.Error
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Error h1
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 250px;
+    line-height: 142.6%;
+    /* or 411px */
+
+    color: #FF6060;
+}
+
+.Error p
+{
+    margin-top: -50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    /* or 51px */
+
+    color: #FF6060;
+}
+
+.Error span
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    /* identical to box height, or 26px */
+    
+    text-decoration-line: underline;
+    color: #FF6060;
+}

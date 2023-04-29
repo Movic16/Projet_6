@@ -1,0 +1,12 @@
+.Apparts
+{
+    width: 100%;
+    min-height: 1800px;
+    max-height: 30000px;
+
+    margin-top: 3em;
+    background: #acaaaab2;
+    border-radius: 25px;
+
+    display: flex;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import '../Style/Banner.css'
 
+//Cette fonction permet d'afficher la banner
 function Banner() 
 {
     return ( 

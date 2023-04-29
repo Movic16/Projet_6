@@ -1,12 +1,12 @@
 import React from "react";
 import '../Style/Main.css';
 
-function Main(Mprops) 
+function Main(props) 
 {
-    console.log("Mprops", Mprops);
-    const Mchildren = Mprops.children;
+    console.log("props", props);
+    const children = props.children;
 
-    return <main className="P-Main">{Mchildren}</main>
+    return <main className="P-Main">{children}</main>
 }
 
 export default Main;

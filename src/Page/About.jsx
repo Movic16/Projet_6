@@ -1,5 +1,7 @@
 import Header from "../Layout/Header";
+import Main from "../Layout/Main";
 import Navbar from "../Components/Navbar";
+import Banner from "../Components/Banner";
 
 
 function About() {
@@ -9,6 +11,9 @@ function About() {
                 <Navbar />
             </Header>
 
+            <Main>
+                <Banner /> 
+            </Main> 
         </div>
     )
 }

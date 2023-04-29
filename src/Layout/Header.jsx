@@ -1,11 +1,11 @@
 import React from "react";
 
-function Header(Hprops) 
+function Header(props) 
 {
-    console.log("Hprops", Hprops);
-    const Hchildren = Hprops.children;
+    console.log("props", props);
+    const children = props.children;
 
-    return <header>{Hchildren}</header>
+    return <header>{children}</header>
 }
 
 export default Header;
