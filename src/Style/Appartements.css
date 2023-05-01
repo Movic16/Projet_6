@@ -1,0 +1,130 @@
+.Log-Title h1
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    color: #FF6060;
+
+    margin-top: -0.10em;
+}
+
+.Log-Title h2
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    color: #FF6060;
+
+    margin-top: -1em;
+}
+
+.Div-Tags
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
+    gap: 1rem;
+    margin-top: -0.80em;
+}
+
+.Div-Tags p
+{
+    padding: 0.5em 1em;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #FF6060;
+    border-radius: 10px;
+}
+
+.Descrip-Logement
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.Div-Profil
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FF6060;
+}
+
+.Title-Tag
+{
+    flex-grow: 1;
+}
+
+.Nom-Profil
+{
+    display: flex;
+    gap: 25px;
+}
+
+.Nom-Profil p
+{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    font-size: 18px;
+    width: 70px;
+}
+
+.Badge
+{
+    border: 3px solid #C4C4C4;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background: #C4C4C4;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Badge img
+{
+    height: 74px;
+    width: 74px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Stars
+{
+    text-align: right;
+    font-size: 35px;
+    gap: 10px;
+}
+
+.etoilColor
+{
+    color: #FF6060;
+}
+
+.etoilNoColor
+{
+    color: #E3E3E3;
+}
+
+.collapseApp
+{
+    display: flex;
+    gap: 2rem;
+    margin-top: 20px;
+    width: 100%;
+}

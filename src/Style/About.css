@@ -1,0 +1,9 @@
+.Partie-collapse
+{
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    padding-inline: 100px;
+    gap: 30px;
+}

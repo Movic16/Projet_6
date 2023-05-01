@@ -6,14 +6,15 @@
     /*align-items: center;*/
     flex-direction: column;
     background: #000000;
-    margin-top: 30px;
-    min-height: 150px;
+    margin-top: 40px;
+    height: 250px;
 }
 
 footer
 {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 footer > div:nth-child(1)

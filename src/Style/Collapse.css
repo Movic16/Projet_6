@@ -1,0 +1,57 @@
+.Collapse
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Div-collapse-titre
+{
+    display: flex;
+    justify-content: space-between;
+    background: #FF6060;
+    border-radius: 10px;
+
+    /*width: 580px;
+    height: 52px;*/
+    padding: 10px 20px 10px 20px;
+
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.chevronValue
+{
+    width: 25px;
+    height: 15px;
+}
+
+.visible.collapse
+{
+    position: relative;
+    top: -10px;
+    font-size: 18px;
+
+    background-color: #f7f7f7;
+    margin: 0;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 20px rgb(193, 191, 191);
+    z-index: -1;
+    color: #FF6060;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.collaps
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
