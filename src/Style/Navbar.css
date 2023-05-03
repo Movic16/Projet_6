@@ -44,3 +44,31 @@
     text-decoration: underline;
     font-weight: 700;
 }
+
+@media (max-width: 768px) { 
+    .DivNav a img
+    {
+        width: 50px;
+    }
+
+    .navbar ul
+    {
+        width: 80%;
+
+    }
+
+    .navbar ul li a
+    {
+        font-size: 12px;
+    }
+
+    .lien-accueil a
+    {
+        margin-left: 20px;
+    }
+
+    .lien-about a
+    {
+        margin-left: -60px;
+    }
+}

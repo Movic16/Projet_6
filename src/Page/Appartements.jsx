@@ -35,6 +35,13 @@ function Appartements()
         <li className="Descrip-equipement" key={'equipement'+index.toString()}>{element}</li>
     ));
 
+    //recuperer la description
+    /*const description = () => {
+        return (<p>{IdLogemnt_OK.description}</p>)
+        console.log("description")
+    };
+    console.log("description", description);*/
+
     //recuperer les tagas
     const recupTags = IdLogemnt_OK.tags.map((element, index) =>(
         <p className="Tags-Log" key={'Tags-Log-'+index}>{element}</p>

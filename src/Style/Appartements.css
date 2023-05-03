@@ -128,3 +128,75 @@
     margin-top: 20px;
     width: 100%;
 }
+
+@media (max-width: 768px) { 
+    .Descrip-Logement
+    {
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    .Log-Title h1
+    {
+        font-size: 18px;
+    }
+
+    .Log-Title h2
+    {
+        font-size: 14px;
+    }
+
+    .Div-Tags
+    {
+        display: flex;
+    }
+
+    .Div-Tags p
+    {
+        padding: 0.5em 1em;
+        font-size: 10px;
+    }
+
+    .Div-Profil
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Nom-Profil
+    {
+        justify-content: end;
+        align-items: center;
+    }
+
+    .Badge img
+    {
+        height: 37px;
+        width: 37px;
+    }
+
+    .Badge
+    {
+        height: 32px;
+        width: 32px;
+    }
+
+    .Nom-Profil p
+    {
+        font-size: 12px;
+        width: 50px;
+    }
+
+    .Stars
+    {
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .collapseApp 
+    {
+        flex-direction: column;
+    }
+}

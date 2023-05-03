@@ -44,3 +44,12 @@ footer > div:nth-child(1)
 
     color: #FFFFFF;
 }
+
+/*Partie responsive*/
+
+@media (max-width: 768px) { 
+    .Div-Footer span
+    {
+        font-size: 12px;
+    }
+}

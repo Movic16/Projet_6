@@ -53,3 +53,20 @@
 {
     border: 2px solid blue;
 }
+
+/*Partie responsive*/
+
+@media (max-width: 768px) { 
+    .Appart-Cards
+    {
+        display: flex;
+        padding: 0rem;
+        margin-top: 20px;
+        gap: 1rem;
+    }
+
+    .Pict-logement {
+        min-width: 0px;
+        width: 100%;
+    }
+}

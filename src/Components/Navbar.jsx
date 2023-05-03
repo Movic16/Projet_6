@@ -19,8 +19,8 @@ function Navbar()
 
             <nav className="navbar">
                 <ul>
-                    <li><NavLink to="/">Accueil</NavLink></li>
-                    <li><NavLink to="/about">A Propos</NavLink></li>
+                    <li className="lien-accueil"><NavLink to="/">Accueil</NavLink></li>
+                    <li className="lien-about"><NavLink to="/about">A Propos</NavLink></li>
                 </ul>
             </nav>
         </div>

@@ -7,3 +7,41 @@
     padding-inline: 100px;
     gap: 30px;
 }
+
+.Partie-collapse ul
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 142.6%;
+
+    color: #FF6060;
+}
+
+.Partie-collapse span
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .Partie-collapse ul
+    {
+        font-size: 12px;
+    }
+
+    .Partie-collapse span
+    {
+        font-size: 13px;
+    }
+
+    .Partie-collapse
+    {
+        padding-inline: 10px;
+    }
+}

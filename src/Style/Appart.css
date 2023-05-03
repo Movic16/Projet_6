@@ -10,3 +10,12 @@
 
     display: flex;
 }
+
+@media (max-width: 768px) { 
+    .Apparts
+    {
+        background: transparent;
+        display: initial;
+        margin-top: 0em;
+    }
+}

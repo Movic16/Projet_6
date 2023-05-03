@@ -55,3 +55,12 @@
     flex-direction: column;
     width: 100%;
 }
+
+/*Partie responsive*/
+@media (max-width: 768px) {
+
+    .Partie-collapse ul
+    {
+        width: 70%;
+    }
+}
