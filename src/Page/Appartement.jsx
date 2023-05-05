@@ -19,9 +19,10 @@ function Appartements()
 {
     //recuperer l'id de l'url
     const [searchPrams] = useSearchParams();
-    const [idLogement] = useState(searchPrams.get('_id'));
+    const [idLogement, setIdLogement] = useState(searchPrams.get('_id'));
     console.log("searchPrams", searchPrams);
     console.log("idLogement", idLogement);
+    console.log("setIdLogement", setIdLogement);
 
     //Rechercher l'id dans le fichier de logement
     const IdLogemnt_OK = Logements.find(element => element.id === idLogement);
@@ -34,13 +35,6 @@ function Appartements()
     const equipements = IdLogemnt_OK.equipments.map((element, index) =>(
         <li className="Descrip-equipement" key={'equipement'+index.toString()}>{element}</li>
     ));
-
-    //recuperer la description
-    /*const description = () => {
-        return (<p>{IdLogemnt_OK.description}</p>)
-        console.log("description")
-    };
-    console.log("description", description);*/
 
     //recuperer les tagas
     const recupTags = IdLogemnt_OK.tags.map((element, index) =>(
